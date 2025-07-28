@@ -10,4 +10,12 @@ public class GreetingController {
     public String welcome(){
         return "Welcome OFSS, Good morning";
     }
+    @GetMapping("/hello")
+    public String hello(){
+        return "Hello OFSS";
+    }
+    @GetMapping("/bye")
+    public String bye(){
+        return "Bye OFSS";
+    }
 }

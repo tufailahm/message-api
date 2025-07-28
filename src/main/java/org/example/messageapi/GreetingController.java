@@ -18,4 +18,8 @@ public class GreetingController {
     public String bye(){
         return "Bye OFSS";
     }
+    @GetMapping("/ofss")
+    public String ofss(){
+        return "Welcome OFSS- Bangalore";
+    }
 }

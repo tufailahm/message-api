@@ -20,6 +20,6 @@ public class GreetingController {
     }
     @GetMapping("/ofss")
     public String ofss(){
-        return "Welcome OFSS- Bangalore";
+        return "Welcome OFSS- Mumbai";
     }
 }
